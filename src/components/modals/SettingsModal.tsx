@@ -26,7 +26,7 @@ export const SettingsModal = ({
     <BaseModal title="Settings" isOpen={isOpen} handleClose={handleClose}>
       <div className="grid-cols-2 gap-4">
         <SettingsToggle
-          settingName="Hard Mode"
+          settingName="Big Brain Mode"
           flag={isHardMode}
           handleFlag={handleHardMode}
         />
