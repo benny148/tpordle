@@ -18,53 +18,53 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="B"
           status="correct"
         />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
+        <Cell value="I" />
+        <Cell value="G" />
+        <Cell value="L" />
         <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter B is in the word and in the correct spot. You're doing a tremendous job.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="C" />
+        <Cell value="O" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="M"
+          status="present"
+        />
+        <Cell value="E" />
+        <Cell value="Y" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter M is in the word but in the wrong spot, just like the FBI was in the wrong spot when it spied on Trump.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="P" />
-        <Cell value="I" />
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="L"
-          status="present"
-        />
-        <Cell value="O" />
-        <Cell value="T" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="E" />
+        <Cell value="N" />
+        <Cell isRevealing={true} isCompleted={true} value="C" status="absent" />
         <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter C is not in the word in any spot, probably because it lacked courage.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        This is a superior version of the word game purchased by the failing New York Times.  Thank you for being a patriot and playing the 
+        only word game built FOR Americans, BY Americans. {' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-          check out the code here
+          Open-Source
         </a>{' '}
       </p>
     </BaseModal>
